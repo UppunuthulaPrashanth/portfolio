@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../assets/images/prashanth_logo.png";
+import { useLocation } from "react-router-dom"
+
 class Layout extends React.Component {
+  
   render() {
     return (
       <div id="wrapper" className="toggled">
@@ -27,10 +30,13 @@ class Layout extends React.Component {
               <a href="fibbonacci">Fibbonacci</a>
             </li>
             <li>
-              <a href="callback-function">CallBackFunction</a>
+              <a href="callback-function">Callback Function</a>
             </li>
             <li>
               <a href="string-reverse">String Reverse</a>
+            </li>
+            <li>
+              <a href="sorting-string">Sorting String</a>
             </li>
             <li className="dropdown">
               <a

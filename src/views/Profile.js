@@ -122,7 +122,7 @@ export default function Profile() {
                     className="nav-link"
                   >
                     <i className="icon-note"></i>{" "}
-                    <span className="hidden-xs"></span>
+                    <span className="hidden-xs">Functionalites</span>
                   </a>
                 </li>
               </ul>
@@ -282,7 +282,7 @@ export default function Profile() {
                     </div>
                     <div className="alert-message">
                       <span>
-                        <strong>Info!</strong> Lorem Ipsum is simply dummy text.
+                        Thank you for visited to my portfolio.
                       </span>
                     </div>
                   </div>
@@ -291,19 +291,17 @@ export default function Profile() {
                       <tr>
                         <td>
                           <span className="float-right font-weight-bold">
-                            3 hrs ago
+                            <a href="https://www.crexin.com" target="_blank">crexin</a>
                           </span>{" "}
-                          Here is your a link to the latest summary report from
-                          the..
+                            Crexin Rentals in this project my role is backend and handling server
                         </td>
                       </tr>
                       <tr>
                         <td>
                           <span className="float-right font-weight-bold">
-                            Yesterday
+                            <a href="https://www.pcsoverseas.com" target="_blank">pcsoverseas</a>
                           </span>{" "}
-                          There has been a request on your account since that
-                          was..
+                          PCS Overseas this is a consultant website which is used for who are looking to start study in abroad
                         </td>
                       </tr>
                       <tr>
@@ -330,140 +328,45 @@ export default function Profile() {
                   </table>
                 </div>
                 <div className="tab-pane" id="edit">
-                  <form>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        First name
-                      </label>
-                      <div className="col-lg-9">
-                        <input className="form-control" type="text" value="Mark" />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Last name
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="text"
-                          value="Jhonsan"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Email
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="email"
-                          value="mark@example.com"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Change profile
-                      </label>
-                      <div className="col-lg-9">
-                        <input className="form-control" type="file" />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Website
-                      </label>
-                      <div className="col-lg-9">
-                        <input className="form-control" type="url" value="" />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Address
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="text"
-                          value=""
-                          placeholder="Street"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label"></label>
-                      <div className="col-lg-6">
-                        <input
-                          className="form-control"
-                          type="text"
-                          value=""
-                          placeholder="City"
-                        />
-                      </div>
-                      <div className="col-lg-3">
-                        <input
-                          className="form-control"
-                          type="text"
-                          value=""
-                          placeholder="State"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Username
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="text"
-                          value="jhonsanmark"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Password
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="password"
-                          value="11111122333"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label">
-                        Confirm password
-                      </label>
-                      <div className="col-lg-9">
-                        <input
-                          className="form-control"
-                          type="password"
-                          value="11111122333"
-                        />
-                      </div>
-                    </div>
-                    <div className="form-group row">
-                      <label className="col-lg-3 col-form-label form-control-label"></label>
-                      <div className="col-lg-9">
-                        <input
-                          type="reset"
-                          className="btn btn-secondary"
-                          value="Cancel"
-                        />
-                        <input
-                          type="button"
-                          className="btn btn-primary"
-                          value="Save Changes"
-                        />
-                      </div>
-                    </div>
-                  </form>
+                <table className="table table-hover table-striped">
+                    <tbody>
+                      <tr>
+                        <td>
+                          Firebase otp api integration and storing in database.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          MSG 91 SMS Gateway integration for mobile number verification.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Razorpay payment getway integration with refund and settle.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Authorized.net payment getway integration international payment getway.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Cronjob scheduling using laravel along with sending push notifications through FCM.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Deploying projects in aws ec2, vps dedicated servers and shared hosting cpanel.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          Deploying static websites and objects storage in s3 bucket.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>

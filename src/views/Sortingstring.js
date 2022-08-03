@@ -7,27 +7,28 @@ import "prismjs/components/prism-clike";
 import "prismjs/components/prism-javascript";
 import "prismjs/themes/prism.css"; //Example style, you can use another
 
-export default function Callbackfunction() {
+export default function Sortingstring() {
   const [code, setCode] = React.useState(
     `
-    callback function with example \n
-    function modifyArray(arr, callback) {
-        // do something to arr here 
-        arr.push(100);\n
-        // then execute the callback function that was passed\n
-        callback();\n
+    function sortNames(){
+      var names=["Prashanth","Chandu", "Balakrishana", "Bharath", "Bhanu"]\n
+      for(var j=0; j<names.length; j++){\n
+        for(var i=0; i<names.length-1; i++){\n
+          if(names[i].length>names[i+1].length){\n
+            temp = names[i]\n
+            names[i]=names[i+1]\n
+            names[i+1]=temp\n
+          }
+        }
       }
-      
-      var arr = [1, 2, 3, 4, 5];\n
-      
-      modifyArray(arr, function() {
-        console.log("array has been modified", arr);\n
-      });
+    return names
+  }
+  sortNames()
       `
   );
   return (
     <div className="row fibbonacci" >
-      <div className="col-md-6">
+      <div className="col-md-7">
         <div className="card" style={{ borderRadius:'10px'}}>
         <Editor
           value={code}
@@ -43,7 +44,11 @@ export default function Callbackfunction() {
       </div>
       <div className="col-md-4 card" style={{border:"1px solid", borderRadius:'10px'}}>
             <div className="m-5">
-                <p><b>Output : 0,1,1,2,3,5,8,13,21,34</b></p>
+                <p><b>Output : [ 'Bhanu',
+  'Chandu',
+  'Bharath',
+  'Prashanth',
+  'Balakrishana' ]</b></p>
                 <p>Uppunuthula Prashanth Goud</p>
                 <p>Full stack developer</p>
                 <p>Node js, Express js, React js, MongoDB, PHP, Laravel, Mysql, Javascript, HTML, CSS, Bootstrap, Aws Ec2, Route53, Cloudfront, S3, Shared hosting</p>

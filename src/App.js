@@ -8,6 +8,7 @@ import Fibbonacci from './views/Fibbonacci';
 import Profile from './views/Profile';
 import Callbackfunction from './views/Callbackfunction';
 import Stringreverse from './views/Stringreverse';
+import Sortingstring from './views/Sortingstring';
 
 function App() {
 
@@ -20,7 +21,9 @@ function App() {
             <Route exact path="profile" element={<Profile/>} />
             <Route exact path="fibbonacci" element={<Fibbonacci/>} />
             <Route exact path="callback-function" element={<Callbackfunction/>} />
-            <Route exact path="String-reverse" element={<Stringreverse/>} />
+            <Route exact path="string-reverse" element={<Stringreverse/>} />
+            <Route exact path="sorting-string" element={<Sortingstring/>} />
+
           </Routes>
         </Layout>
       </Router>
