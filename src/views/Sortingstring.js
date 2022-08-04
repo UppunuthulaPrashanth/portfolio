@@ -10,6 +10,7 @@ import "prismjs/themes/prism.css"; //Example style, you can use another
 export default function Sortingstring() {
   const [code, setCode] = React.useState(
     `
+    Q).Sorting strings in array \n
     function sortNames(){
       var names=["Prashanth","Chandu", "Balakrishana", "Bharath", "Bhanu"]\n
       for(var j=0; j<names.length; j++){\n
@@ -27,6 +28,14 @@ export default function Sortingstring() {
       `
   );
   return (
+    <>
+      <nav>
+        <ol className="breadcrumb">
+          <li className="breadcrumb-item"><a href="#">Home</a></li>
+          <li className="breadcrumb-item active">sorting strings</li>
+        </ol>
+      </nav>
+    
     <div className="row fibbonacci" >
       <div className="col-md-7">
         <div className="card" style={{ borderRadius:'10px'}}>
@@ -42,18 +51,22 @@ export default function Sortingstring() {
         />
         </div>
       </div>
-      <div className="col-md-4 card" style={{border:"1px solid", borderRadius:'10px'}}>
+      <div className="col-md-5 card" style={{border:"1px solid", borderRadius:'10px'}}>
             <div className="m-5">
-                <p><b>Output : [ 'Bhanu',
-  'Chandu',
-  'Bharath',
-  'Prashanth',
-  'Balakrishana' ]</b></p>
+                <p><b>
+                Output : 
+                [ 'Bhanu',
+                'Chandu',
+                'Bharath',
+                'Prashanth',
+                'Balakrishana' ]
+                </b></p>
                 <p>Uppunuthula Prashanth Goud</p>
                 <p>Full stack developer</p>
                 <p>Node js, Express js, React js, MongoDB, PHP, Laravel, Mysql, Javascript, HTML, CSS, Bootstrap, Aws Ec2, Route53, Cloudfront, S3, Shared hosting</p>
             </div>
       </div>
     </div>
+  </>
   );
 }

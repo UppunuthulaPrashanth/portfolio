@@ -21,7 +21,7 @@ class Layout extends React.Component {
               </div>
             </div>
             <li>
-              <a href="profile">
+              <a href="/">
                 <i className="fa fa-user" /> &nbsp; Profile
               </a>
             </li>
@@ -36,8 +36,18 @@ class Layout extends React.Component {
               <a href="string-reverse">String Reverse</a>
             </li>
             <li>
-              <a href="sorting-string">Sorting String</a>
+              <a href="sorting-strings">Sorting Strings</a>
             </li>
+            <li>
+              <a href="sorting-numbers">Sorting Numbers</a>
+            </li>
+            <li>
+              <a href="quadratic-formula">Quadratic formula</a>
+            </li>
+            <li>
+              <a href="qrcode">QrCode Generator</a>
+            </li>
+            
             <li className="dropdown">
               <a
                 href="works"

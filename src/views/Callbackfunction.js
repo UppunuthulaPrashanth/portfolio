@@ -10,7 +10,7 @@ import "prismjs/themes/prism.css"; //Example style, you can use another
 export default function Callbackfunction() {
   const [code, setCode] = React.useState(
     `
-    callback function with example \n
+    Q).callback function with example \n
     function modifyArray(arr, callback) {
         // do something to arr here 
         arr.push(100);\n
@@ -48,7 +48,7 @@ export default function Callbackfunction() {
         />
         </div>
       </div>
-      <div className="col-md-4 card" style={{border:"1px solid", borderRadius:'10px'}}>
+      <div className="col-md-5 card" style={{border:"1px solid", borderRadius:'10px'}}>
             <div className="m-5">
                 <p>Uppunuthula Prashanth Goud</p>
                 <p>Full stack developer</p>

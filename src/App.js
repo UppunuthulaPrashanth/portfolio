@@ -3,13 +3,14 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 
-import Dashboard from './views/Dashboard';
 import Fibbonacci from './views/Fibbonacci';
 import Profile from './views/Profile';
 import Callbackfunction from './views/Callbackfunction';
 import Stringreverse from './views/Stringreverse';
 import Sortingstring from './views/Sortingstring';
-
+import Sortingnumber from './views/Sortingnumber';
+import Quadraticformula from './views/Quadraticformula';
+import QrCode from './views/QrCode';
 function App() {
 
   return (
@@ -17,13 +18,14 @@ function App() {
       <Router>
         <Layout>
           <Routes>
-            <Route exact path="/" element={<Dashboard/>} />
-            <Route exact path="profile" element={<Profile/>} />
+            <Route exact path="/" element={<Profile/>} />
             <Route exact path="fibbonacci" element={<Fibbonacci/>} />
             <Route exact path="callback-function" element={<Callbackfunction/>} />
             <Route exact path="string-reverse" element={<Stringreverse/>} />
-            <Route exact path="sorting-string" element={<Sortingstring/>} />
-
+            <Route exact path="sorting-strings" element={<Sortingstring/>} />
+            <Route exact path="sorting-numbers" element={<Sortingnumber/>} />
+            <Route exact path="quadratic-formula" element={<Quadraticformula/>}/>
+            <Route exact path="qrcode" element={<QrCode/>}/>
           </Routes>
         </Layout>
       </Router>
