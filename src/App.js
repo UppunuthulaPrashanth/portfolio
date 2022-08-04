@@ -11,6 +11,8 @@ import Sortingstring from './views/Sortingstring';
 import Sortingnumber from './views/Sortingnumber';
 import Quadraticformula from './views/Quadraticformula';
 import QrCode from './views/QrCode';
+import Calculator from './views/Calculator';
+
 function App() {
 
   return (
@@ -26,6 +28,7 @@ function App() {
             <Route exact path="sorting-numbers" element={<Sortingnumber/>} />
             <Route exact path="quadratic-formula" element={<Quadraticformula/>}/>
             <Route exact path="qrcode" element={<QrCode/>}/>
+            <Route exact path="calculator" element={<Calculator/>}/>
           </Routes>
         </Layout>
       </Router>

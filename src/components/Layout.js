@@ -17,7 +17,7 @@ class Layout extends React.Component {
           <ul className="nav sidebar-nav">
             <div className="sidebar-header">
               <div className="sidebar-brand mt-1">
-                <img src={logo} style={{ height: "66px" }} />
+                <img src={logo} style={{ height: "66px" }}  className="mx-auto"/>
               </div>
             </div>
             <li>
@@ -47,7 +47,9 @@ class Layout extends React.Component {
             <li>
               <a href="qrcode">QrCode Generator</a>
             </li>
-            
+            <li>
+              <a href="calculator">Calculator</a>
+            </li>
             <li className="dropdown">
               <a
                 href="works"

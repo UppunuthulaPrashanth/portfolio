@@ -27,7 +27,7 @@ const QrCode = () => {
     <QRCodeCanvas
       id="qrCode"
       value={url}
-      size={300}
+      size={200}
       level={"H"}
     />
   );
