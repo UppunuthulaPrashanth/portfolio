@@ -15,7 +15,7 @@ const QrCode = () => {
     anchor.download = `qr-code.png`;
     document.body.appendChild(anchor);
     anchor.click();
-    document.body.removeChild(anchor);
+    document.body.removeChild(anchor);  
     setUrl("");
   };
 
