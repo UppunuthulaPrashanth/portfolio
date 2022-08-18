@@ -12,6 +12,8 @@ import Sortingnumber from './views/Sortingnumber';
 import Quadraticformula from './views/Quadraticformula';
 import QrCode from './views/QrCode';
 import Calculator from './views/Calculator';
+import PasswordGenrator from './views/PasswordGenrator';
+import AmstrongNumber from './views/AmstrongNumber';
 
 function App() {
 
@@ -29,6 +31,8 @@ function App() {
             <Route exact path="quadratic-formula" element={<Quadraticformula/>}/>
             <Route exact path="qrcode" element={<QrCode/>}/>
             <Route exact path="calculator" element={<Calculator/>}/>
+            <Route exact path="genarate-password" element={<PasswordGenrator/>}/>
+            <Route exact path="amstrong" element={<AmstrongNumber/>}/>
           </Routes>
         </Layout>
       </Router>

@@ -8,7 +8,6 @@ class Layout extends React.Component {
     return (
       <div id="wrapper" className="toggled">
         <div className="overlay"></div>
-
         <nav
           className="navbar navbar-inverse fixed-top"
           id="sidebar-wrapper"
@@ -22,7 +21,7 @@ class Layout extends React.Component {
             </div>
             <li>
               <a href="/">
-                <i className="fa fa-user" /> &nbsp; Profile
+                <i className="fa fa-user"/> &nbsp; Profile
               </a>
             </li>
             <div className="dropdown-header">Logical programs</div>
@@ -48,6 +47,13 @@ class Layout extends React.Component {
               <a href="qrcode">QrCode Generator</a>
             </li>
             <li>
+              <a href="amstrong">Amstrong number</a>
+            </li>
+            <li>
+              <a href="genarate-password">Password Generator</a>
+            </li>
+
+            <li>
               <a href="calculator">Calculator</a>
             </li>
             <li className="dropdown">
@@ -62,10 +68,10 @@ class Layout extends React.Component {
                 <div className="dropdown-header">Logical programs</div>
 
                 <li>
-                  <a href="art">Art</a>
+                  <a href="art">Data structure</a>
                 </li>
                 <li>
-                  <a href="awards">Awards</a>
+                  <a href="awards">Marthon</a>
                 </li>
               </ul>
             </li>
