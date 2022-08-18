@@ -24,37 +24,22 @@ class Layout extends React.Component {
                 <i className="fa fa-user"/> &nbsp; Profile
               </a>
             </li>
-            <div className="dropdown-header">Logical programs</div>
+            <div className="dropdown-header"> Menu </div>
+            
+            
             <li>
-              <a href="fibbonacci">Fibbonacci</a>
+            <a href="qrcode"><i className="fa fa-qrcode"/> &nbsp; QrCode Generator</a>
             </li>
             <li>
-              <a href="callback-function">Callback Function</a>
+              <a href="internet"><i className="fa fa-wifi"/> &nbsp;  internet speed</a>
             </li>
+            
             <li>
-              <a href="string-reverse">String Reverse</a>
-            </li>
-            <li>
-              <a href="sorting-strings">Sorting Strings</a>
-            </li>
-            <li>
-              <a href="sorting-numbers">Sorting Numbers</a>
-            </li>
-            <li>
-              <a href="quadratic-formula">Quadratic formula</a>
-            </li>
-            <li>
-              <a href="qrcode">QrCode Generator</a>
-            </li>
-            <li>
-              <a href="amstrong">Amstrong number</a>
-            </li>
-            <li>
-              <a href="genarate-password">Password Generator</a>
+              <a href="genarate-password"><i className="fa fa-lock"/> &nbsp; Password Generator</a>
             </li>
 
             <li>
-              <a href="calculator">Calculator</a>
+              <a href="calculator"><i className="fa fa-calculator"/> &nbsp; Calculator</a>
             </li>
             <li className="dropdown">
               <a
@@ -66,12 +51,26 @@ class Layout extends React.Component {
               </a>
               <ul className="dropdown-menu animated fadeInLeft" role="menu">
                 <div className="dropdown-header">Logical programs</div>
-
                 <li>
-                  <a href="art">Data structure</a>
+                  <a href="string-reverse">String Reverse</a>
                 </li>
                 <li>
-                  <a href="awards">Marthon</a>
+                  <a href="sorting-strings">Sorting Strings</a>
+                </li>
+                <li>
+                  <a href="sorting-numbers">Sorting Numbers</a>
+                </li>
+                <li>
+                  <a href="quadratic-formula">Quadratic formula</a>
+                </li>
+                <li>
+                  <a href="fibbonacci">Fibbonacci</a>
+                </li>
+                <li>
+                  <a href="callback-function">Callback Function</a>
+                </li>
+                <li>
+                  <a href="amstrong">Amstrong number</a>
                 </li>
               </ul>
             </li>

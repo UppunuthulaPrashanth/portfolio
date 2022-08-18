@@ -14,6 +14,7 @@ import QrCode from './views/QrCode';
 import Calculator from './views/Calculator';
 import PasswordGenrator from './views/PasswordGenrator';
 import AmstrongNumber from './views/AmstrongNumber';
+import Internet from './views/internet/Internet';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
             <Route exact path="calculator" element={<Calculator/>}/>
             <Route exact path="genarate-password" element={<PasswordGenrator/>}/>
             <Route exact path="amstrong" element={<AmstrongNumber/>}/>
+            <Route exact path="internet" element={<Internet/>} />
           </Routes>
         </Layout>
       </Router>

@@ -45,7 +45,7 @@ html { height: 100%;}
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 170px;
+    width: 190px;
 }
 
 #page-content-wrapper {
@@ -78,7 +78,8 @@ html { height: 100%;}
     position: relative; 
     line-height: 20px;
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
+    margin-left: 20px;
 }
 
 .sidebar-nav li:before {
@@ -131,7 +132,7 @@ html { height: 100%;}
     display: block;
     color: white;
     text-decoration: none;
-    padding: 10px 15px 10px 30px;    
+    padding: 10px 15px 10px 5px;    
 }
 
 .sidebar-nav li a:hover,
@@ -169,6 +170,7 @@ html { height: 100%;}
 }
 .dropdown-header {
     font-size: 1.2em;
+    width: 100% !important;
     color: #ddd;
     background-color:grey;
     padding: 0.1rem 1.3rem !important;

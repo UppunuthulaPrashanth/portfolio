@@ -25,7 +25,7 @@ export default function Calculator() {
             <div className='col-md-6 offset-2'>
                 <div className='card' style={{borderRadius:'20px'}}>
                     <div className='m-5 animate__bounce'>
-                        <h5 className='animate__bounce'>Calculator in React js</h5>
+                        <h5 className='animate__bounce'>Calculator</h5>
                         <input className='form-control' id='result'/>
                         <div className='row'>
                             <div className='col-md-8'>
